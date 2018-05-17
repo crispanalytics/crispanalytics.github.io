@@ -1480,7 +1480,7 @@ width: 100%;
             .section-ourteam {
 padding-top: 12%;
 padding-bottom: 12%;
-background:#EBECEE !important
+                background: #FFF !important;
             }
             .section-ourteam h2 {
 text-align: center;
@@ -1557,7 +1557,7 @@ width: 80vw; //background:Red;//margin:2vh 0 0 35vw;//margin-left:30vw;margin-to
 }
 .crisp-blog {
     padding: 100px 0;
-    background: #FFF;
+    background:#EBECEE !important
     display: none;
 }
 .crisp-blog h2 {
