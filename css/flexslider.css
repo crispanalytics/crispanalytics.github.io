@@ -1,4 +1,4 @@
-@font-face{font-family:'fontawesome';src:url('../fonts/fontawesome-webfont.eot');src:url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg#flexslider-icon') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'fontawesome';src:url('../fonts/fontawesome-webfont.eot');src:url('../fonts/fontawesome-webfont.eot?') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');font-weight:normal;font-style:normal;}
 .flex-container a:hover, .flex-slider a:hover, .flex-container a:focus, .flex-slider a:focus{outline:none;}
 .slides, .slides > li, .flex-control-nav, .flex-direction-nav{margin:0;padding:0;list-style:none;}
 .flex-pauseplay span{text-transform:capitalize;}
