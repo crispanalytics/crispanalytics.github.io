@@ -1,0 +1,38 @@
+form {
+  /*width: 400px;*/
+  background: transparent;
+  text-align: center;
+  margin: 30px auto auto 30px;
+}
+form input,
+form textarea {
+  font: inherit;
+  color: #333333;
+  padding: 5px 5px;
+  width: 60%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+}
+form button {
+  border: 1px solid transparent;
+  padding: 8px 15px;
+  font-size: 12px;
+  background: #3D9E39;
+  color: white;
+  font-family: 'Source Sans Pro';
+  width: 28%;
+}
+@media (max-width:62rem) {
+  form button {
+    padding: 8px 0;
+    width: 32%;
+  }
+}
+form label {
+  color: #777;
+  font-size: 11px;
+  margin-bottom: 2px;
+  display: block;
+}
