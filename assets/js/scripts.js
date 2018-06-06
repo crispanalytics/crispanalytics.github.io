@@ -11,6 +11,9 @@
     })
 }(),
 function() {
+    $('.carousel').carousel({
+        interval: 1000 * 5
+    });
     var n = document.getElementById("navbar"),
         e = "faded-out";
 
@@ -144,33 +147,32 @@ function() {
 
     var myform = $("form#myform");
     myform.submit(function(event){
-        event.preventDefault();
+        if(document.getElementById('message_html').value.length) {
+            event.preventDefault();
 
-        // Change to your service ID, or keep using the default service
-        var service_id = "default_service";
-        var template_id = "template_QY87AcYu";
+            // Change to your service ID, or keep using the default service
+            var service_id = "default_service";
+            var template_id = "template_QY87AcYu";
 
-        myform.find("button").text("Sending...");
-        emailjs.sendForm(service_id,template_id,"myform")
-            .then(function(){
-                swal({
-                    title: "Thank you",
-                    text: "We will contact you soon.",
-                    icon: "success",
+            myform.find("button").text("Sending...");
+            emailjs.sendForm(service_id,template_id,"myform")
+                .then(function(){
+                    swal({
+                        title: "Thank you",
+                        text: "We will contact you soon.",
+                        icon: "success",
+                    });
+                    myform.find("button").text("Send");
+                    $("#message_html").text("");
+                }, function(err) {
+                    swal({
+                        title: "Oh ho!!!",
+                        text: "Something went wrong. Please try again.",
+                        icon: "error",
+                    });
+                    myform.find("button").text("Send");
                 });
-                myform.find("button").text("Send");
-                $("#message_html").text("");
-            }, function(err) {
-                swal({
-                    title: "Oh ho!!!",
-                    text: "Something went wrong. Please try again.",
-                    icon: "error",
-                });
-                myform.find("button").text("Send");
-            });
-        return false;
-    });
-    $('.carousel').carousel({
-        interval: 1000 * 5
+            return false;
+        }
     });
 }();

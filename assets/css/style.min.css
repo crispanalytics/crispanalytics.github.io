@@ -1979,7 +1979,7 @@ pre code {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
 }
 
 .container:after,
@@ -6018,8 +6018,9 @@ a.badge:hover {
     background-color: rgba(28, 57, 93, 0.96);
     margin-bottom:0;
     height: 70vh;
-    padding-top: 100px;"
+    padding-top: 100px;
 }
+
 .career {
     height: 40vh;
 }
@@ -8268,7 +8269,7 @@ h5 {
     /*background: #508ec3 url('../img/image.png') center bottom no-repeat;*/
     background-size: 100%;
     /*min-height: 320px;*/
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .jumbotron h1 {
@@ -8908,6 +8909,13 @@ html {
     padding-bottom: 20px;
     padding-left: 0;
 }
+.footer1Career {
+    background: #FAFAFA;
+    padding-top: 40px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
 
 .title-widget {
     color: #555555;
@@ -8917,14 +8925,8 @@ html {
     position: relative;
     text-transform: uppercase;
     font-family: 'Fjalla One', sans-serif;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 25px;
-    margin-left: 0;
-    padding-left: 28px;
+    margin: 25px 0 15px 0;
 }
-
-
 
 .widget_nav_menu ul {
     list-style: outside none none;
@@ -9010,8 +9012,8 @@ html {
     margin: 0;
     width: 100%;
     background: #fafafa;
-    min-height: 60vh;
-    padding: 60px 0;
+    /*min-height: 60vh;*/
+    /*padding: 60px 0;*/
 }
 .main-text
 {
@@ -9106,7 +9108,17 @@ html {
 .door .description a:hover {
     color: white;
 }
+.small-br {
+    display: none;
+}
 @media (max-width:48rem) {
+    .jumbotron {
+        height: 80vh !important;
+    }
+    .main-text
+    {
+        top: 80% !important;
+    }
     .door .title {
         font-size: 1.5rem;
         line-height: 1.8rem;
@@ -9118,6 +9130,12 @@ html {
     .contactUs {
         text-align: left;
         padding: 0 30px;
+    }
+    .footer1 {
+        text-align: center !important;
+    }
+    .small-br {
+        display: block;
     }
 }
 .platform {
@@ -9232,4 +9250,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-network a {
     background-color: #D3D3D3;
+}
+.forcepaddingdiv {
+    padding: 45px 25px;
 }
