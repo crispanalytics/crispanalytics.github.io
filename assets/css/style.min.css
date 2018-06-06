@@ -9125,7 +9125,9 @@ html {
 }
 
 .img-client {
-    margin-bottom: 10px;
+    max-height: 120px !important;
+    max-width: 120px !important;
+    margin: 20px auto 10px auto;
 }
 .client-text:before, .client-text:after {
     content: open-quote;
