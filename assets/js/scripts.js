@@ -12,7 +12,7 @@
 }(),
 function() {
     $('.carousel').carousel({
-        interval: 1000 * 5
+        interval: 1000 * 3
     });
     var n = document.getElementById("navbar"),
         e = "faded-out";

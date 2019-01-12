@@ -9021,6 +9021,7 @@ html {
     top: 78%;
     width: 100%;
     color: #FFF;
+    text-align: center;
 }
 .carousel {
     width: 100%;
@@ -9085,12 +9086,17 @@ html {
 }
 .door .title {
     font-family: 'Oxygen';
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    line-height: 2.9rem;
+    //letter-spacing: 0.3rem;
+    line-height: 2.0rem;
     width: 70%;
     text-align: center;
+    color:rgba(255,255,255,0.7);
+}
+.door .title b{
+    font-weight:bolder;
+    color:white;
 }
 .door .description {
     /*border-top: 1px solid #fff;*/
@@ -9107,6 +9113,19 @@ html {
 }
 .door .description a:hover {
     color: white;
+}
+.contact-button{
+    font-family: 'Oxygen';
+    display: inline;
+    padding:10px;
+    background:#27ae60;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contact-button:hover{
+    color:white;
+    text-decoration: underline;
 }
 .small-br {
     display: none;
