@@ -9273,3 +9273,234 @@ a.socialIcon:hover, .socialHoverClass {
 .forcepaddingdiv {
     padding: 45px 25px;
 }
+
+
+.header-logo {
+font-family: 'Dosis';
+margin: 5px;
+}
+.carousel .carousel-caption{
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+.text-blue{
+    color: #72cafd;
+}
+.carousel-caption {
+    top: 35%;
+}
+.jumbotron {
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+}
+.btn-holder{
+    margin-top: 20px;
+}
+.btn-blue{
+    background-color: #0c2544;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.btn-blue:hover{
+    color: #ccc;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px !important;
+}
+.navbar {
+    padding: 0px 0;
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    padding-bottom: 5px;
+}
+.carousel-inner>.item.active{
+    height: 100%;
+  line-height: 100%;
+  text-align: center;
+  
+}
+.carousel-inner>.item .carousel-caption{
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.modal-dialog {
+    z-index: 99999;
+}
+form {
+    margin: 10px 20px auto 20px;
+    font-size: 18px;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+form label {
+    color: #777;
+    font-size: 15px;
+}
+.thankyou-message{
+    display: none;
+}
+
+@media only screen and (max-width: 1170px){
+    .carousel-caption {
+        top: 20%;
+    }   
+    .carousel .carousel-caption{
+        font-size: 34px;
+    }
+    .jumbotron {
+        height: auto !important;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 0px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+    
+}
+@media only screen and (max-width: 1024px){
+    .carousel-caption {
+        top: 15%;
+    }   
+    .carousel .carousel-caption{
+        font-size: 30px;
+    }
+    .jumbotron {
+        height: auto !important;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 0px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 694px){
+    .carousel-caption {
+        top: 15%;
+    }   
+    .carousel .carousel-caption{
+        font-size: 24px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        bottom: -12px !important;
+    }
+    
+}
+@media only screen and (max-width: 580px){
+    .carousel-caption {
+        top: 20%;
+    }   
+    .carousel .carousel-caption{
+        font-size: 24px;
+    }
+    .jumbotron {
+        height: auto !important;
+    }
+    .btn-blue{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .carousel-caption {
+        top: 0px;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 50px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+    .carousel .carousel-caption{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .carousel-caption {
+        top: 0px;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 60px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+    .carousel .carousel-caption{
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .carousel-caption {
+        top: 0px;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 40px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+
+    .carousel .carousel-caption{
+        font-size: 16px;
+    }
+    .jumbotron {
+        height: auto !important;
+    }
+    
+}
+@media only screen and (max-width: 319px){
+    .carousel-caption {
+        top: 0px;
+    }
+    .carousel-inner>.item{
+        padding-bottom: 60px;
+    }
+    .carousel-inner>.item img{
+        height: 100%;
+        width: 200%;
+    }
+    
+
+    .carousel .carousel-caption{
+        font-size: 14px;
+    }
+    .jumbotron {
+        height: auto !important;
+    }
+    
+}
